@@ -10,7 +10,7 @@ public class ProductLoader {
 	private static ArrayList<Product> products;
 	
 	public static void loadProduct() throws IOException {
-		products.clear();
+	
 		products = new ArrayList<Product>();
 		File file = new File("productDetails.txt");
 		FileReader fr = new FileReader(file);

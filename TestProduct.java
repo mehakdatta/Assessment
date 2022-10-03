@@ -33,6 +33,8 @@ public class TestProduct {
 		} else {
 			TestProduct.getOutput(checkProduct);
 		}
+		prod= ProductLoader.getProductList();
+		System.out.println("Total products : "+prod.size());
 	}
 
 	public static void addProductData(String inputData) throws IOException {
